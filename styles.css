@@ -38,6 +38,31 @@ button {
     display: none;
 }
 
-#feedback {
+.controls {
+    margin-bottom: 10px;
+}
+
+#feedback, #mcFeedback {
     margin-top: 10px;
+}
+
+#progressBar {
+    margin-top: 10px;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#progress {
+    height: 100%;
+    background: #4caf50;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+#choices label {
+    display: block;
+    margin: 5px 0;
 }
