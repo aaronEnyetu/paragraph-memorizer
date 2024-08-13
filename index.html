@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Memorizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Paragraph Memorizer</h1>
+        <textarea id="paragraph" placeholder="Enter your paragraph here..."></textarea>
+        <button onclick="startQuiz()">Start Quiz</button>
+        <div id="quizSection" class="hidden">
+            <h2>Quiz Time!</h2>
+            <p id="quizParagraph"></p>
+            <textarea id="userInput" placeholder="Type what you remember here..."></textarea>
+            <button onclick="checkAnswer()">Check Answer</button>
+            <p id="feedback"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
